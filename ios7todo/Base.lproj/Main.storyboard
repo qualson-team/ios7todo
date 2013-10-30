@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eca-Br-6E5">
-                                <rect key="frame" x="135" y="107" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eca-Br-6E5">
+                                <rect key="frame" x="137" y="219" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,10 +31,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKy-Xi-lJ4">
+                                <rect key="frame" x="110" y="168" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Eca-Br-6E5" firstAttribute="top" secondItem="1YV-US-HnU" secondAttribute="bottom" constant="200" id="2VP-zS-KJ5"/>
+                            <constraint firstItem="Eca-Br-6E5" firstAttribute="top" relation="lessThanOrEqual" secondItem="1YV-US-HnU" secondAttribute="bottom" constant="200" id="2VP-zS-KJ5"/>
                             <constraint firstItem="1YV-US-HnU" firstAttribute="top" secondItem="uDC-Qf-Hv5" secondAttribute="bottom" constant="100" id="NW5-oJ-NJI"/>
                             <constraint firstAttribute="centerX" secondItem="Eca-Br-6E5" secondAttribute="centerX" id="b59-Si-NLi"/>
                             <constraint firstAttribute="trailing" secondItem="1YV-US-HnU" secondAttribute="trailing" constant="29" id="m9z-g8-Ol4"/>
