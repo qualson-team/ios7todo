@@ -381,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios7todo/ios7todo-Prefix.pch";
 				INFOPLIST_FILE = "ios7todo/ios7todo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios7todo/ios7todo-Prefix.pch";
 				INFOPLIST_FILE = "ios7todo/ios7todo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +462,7 @@
 				4ED4F8E518214BA0002BC3F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED4F8E618214BA0002BC3F3 /* Build configuration list for PBXNativeTarget "ios7todoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +471,7 @@
 				4ED4F8E818214BA0002BC3F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
